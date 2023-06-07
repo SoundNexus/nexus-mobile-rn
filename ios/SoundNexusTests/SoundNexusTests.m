@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface webmintappTests : XCTestCase
+@interface SoundNexusTests : XCTestCase
 
 @end
 
-@implementation webmintappTests
+@implementation SoundNexusTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
